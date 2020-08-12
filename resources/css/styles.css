@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+
+
+@media (min-width: 900px){
+    body{
+        grid-template-areas: "navbar content";
+    }
+}
